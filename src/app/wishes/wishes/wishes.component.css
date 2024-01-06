@@ -14,7 +14,6 @@
 
 .btn{
   height: 57px;
-  /* align-self: center; */
 }
 
 .example-full-width {
@@ -37,4 +36,5 @@
     list-style-type: none;
     margin-top: 4px;
   }
+
   

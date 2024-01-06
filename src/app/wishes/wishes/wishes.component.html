@@ -16,7 +16,7 @@
 
 
   <mat-form-field class="field">
-    <mat-label>Favorite food</mat-label>
+    <mat-label>wish select</mat-label>
     <mat-select >
       @for (item of chuse(); track item) {
       <mat-option [value]="item.value" 
@@ -30,7 +30,7 @@
       <ul>
         @for( wish of viewWishes(); track wish.completed){
         <li>
-          <app-wish [wish]="wish" (changeWish)="wishChange($event)"></app-wish>
+          <app-wish  [wish]="wish" (changeWish)="wishChange($event)"></app-wish>
         </li>
         }@empty {
         <li> There are no items. </li>

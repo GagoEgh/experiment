@@ -1,4 +1,5 @@
 <mat-checkbox 
+    [class.chacket]="wish.completed"
     (change)='changed()'
     [checked]="wish.completed" >
     {{wish.wish}}

@@ -75,7 +75,6 @@ export class WishesComponent {
   }
 
   addWish() {
-
     this.wishes = signal([...this.wishes()!, {
       completed: false,
       wish: this.wishInput.value!
