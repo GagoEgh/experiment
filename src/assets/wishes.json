@@ -1,0 +1,14 @@
+[
+    {
+        "wish": "learning Angular",
+        "completed": false
+    },
+    {
+        "wish": "coffee break",
+        "completed": true
+    },
+    {
+        "wish": "buy top car",
+        "completed": false
+    }
+]

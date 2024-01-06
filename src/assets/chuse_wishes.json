@@ -1,0 +1,14 @@
+[
+    {
+        "value": "all",
+        "viewValue": "All"
+    },
+    {
+        "value": "true",
+        "viewValue": "Computed"
+    },
+    {
+        "value": "false",
+        "viewValue": "No Computed"
+    }
+]
